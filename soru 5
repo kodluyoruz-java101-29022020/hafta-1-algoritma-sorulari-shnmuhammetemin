@@ -1,0 +1,24 @@
+package testtekcift;
+
+
+import java.util.Scanner;
+public class tekmiciftmi {
+
+
+	public static void main(String[] args) {
+		 
+        int sayi = 100;
+        int toplam = 0;
+       
+ 
+        for(int i = 1; i <= sayi; ++i)
+        {    Scanner scan = new Scanner(System.in);
+        System.out.println("Bir Sayi Giriniz ");
+        int deger= scan.nextInt();
+        if(deger%2 == 1){
+           System.out.println("Girdiginiz Sayi TEK");
+        }else{
+           System.out.println("Girdiginiz Sayi CIFT");
+        }
+    }
+}}

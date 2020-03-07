@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Testsifre {
+
+	public static void main(String[] args) {
+		String kullanıcıAdı = "memin";
+		String sifre = "1234";
+		Scanner in = new Scanner(System.in);
+		System.out.print("Kullanıcı Adı: ");
+		String x = in.nextLine();
+		System.out.print("Şifre: ");
+		String y = in.nextLine();
+		if (x.compareTo(kullanıcıAdı) == 0 && y.compareTo(sifre) == 0) {
+			System.out.print("Giris Basarili!");
+		} else {
+			System.out.print("Giris Basarisiz!");
+		}
+
+	}
+}
